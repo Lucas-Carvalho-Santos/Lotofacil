@@ -3,7 +3,9 @@ Olá pessoal! Apresento a vocês um jogo de console chamado Lotofácil, onde voc
 
 # O jogo oferece três modalidades diferentes de aposta:
 Apostar entre 0 e 100;
+
 Apostar entre as letras A e Z;
+
 Apostar se o número é Par ou Ímpar;
 
 # Como Jogar
