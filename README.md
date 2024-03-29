@@ -13,9 +13,11 @@ Para começar, basta clonar este repositório em sua máquina local e executar o
 # Bibliotecas Utilizadas
 Neste projeto, foram utilizadas algumas bibliotecas Java essenciais:
 
-java.util.Scanner: Usada para capturar a entrada do usuário a partir do console.
-java.util.Random: Utilizada para gerar números aleatórios para os sorteios.
-java.io.IOException: Empregada para lidar com possíveis problemas de entrada e saída.
+java.util.Scanner: Usada para capturar a entrada do usuário a partir do console;
+
+java.util.Random: Utilizada para gerar números aleatórios para os sorteios;
+
+java.io.IOException: Empregada para lidar com possíveis problemas de entrada e saída;
 
 # Justificativa das Escolhas
 Scanner: Optei por essa biblioteca por sua facilidade de uso e capacidade de interação com o usuário, tornando a experiência mais amigável.
