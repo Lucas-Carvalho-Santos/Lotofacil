@@ -23,4 +23,5 @@ java.io.IOException: Empregada para lidar com possíveis problemas de entrada e 
 Scanner: Optei por essa biblioteca por sua facilidade de uso e capacidade de interação com o usuário, tornando a experiência mais amigável.
 Random: A escolha do Random foi fundamental para garantir a imprevisibilidade e equidade nos sorteios, tornando o jogo mais emocionante.
 IOException: Essencial para lidar com exceções durante operações de entrada e saída, garantindo a estabilidade do jogo mesmo em situações adversas.
+
 Essas escolhas foram feitas com o objetivo de proporcionar uma experiência agradável ao jogador, mantendo a integridade e confiabilidade do jogo.
