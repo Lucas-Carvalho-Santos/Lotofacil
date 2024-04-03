@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int aposta = 1;
+        int aposta = 4;
         do {
             //int aposta = 1;
             System.out.println("**************************************");
@@ -16,7 +16,12 @@ public class Main {
             System.out.println("**************************************");
             Scanner sc = new Scanner(System.in);
             System.out.println("Escolha a modalidade: ");
-            aposta = sc.nextInt();
+
+            try {
+                aposta = sc.nextInt();
+            } catch (java.util.InputMismatchException e) {
+                System.out.println("Entrada inválida. Digite um número par aescolher a modalidade.");
+            }
             Thread.sleep(500);
             switch (aposta) {
                 // caso o usuário escolha a 1° modalidade
@@ -90,9 +95,13 @@ public class Main {
                     }
                     Thread.sleep(500);
                     break;
+                case 4:
+                    System.out.println("Opção inválida.");
+                    Thread.sleep(500);
+                    break;
                 default:
                     if (aposta != 0) {
-                        System.out.println("Opação inválida, I-M-B-E-C-I-L!!");
+                        System.out.println("Opação inválida!");
                     } else {
                         break;
                     }
